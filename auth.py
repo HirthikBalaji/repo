@@ -6,3 +6,8 @@ class User:
     def get_name(self):
         return self.name
 
+
+def fetch_data(endpoint):
+    # Simulated API call
+    return {"status": 200, "data": []}
+
