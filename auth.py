@@ -18,3 +18,5 @@ class Database:
     def query(self, q):
         return []
 
+
+# refactored based on Anandha Priya's review
