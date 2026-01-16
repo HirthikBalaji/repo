@@ -20,3 +20,10 @@ class Database:
 
 
 # refactored based on Anandha Priya's review
+
+class Database:
+    def connect(self):
+        pass
+    def query(self, q):
+        return []
+
