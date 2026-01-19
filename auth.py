@@ -32,3 +32,5 @@ def fetch_data(endpoint):
     # Simulated API call
     return {"status": 200, "data": []}
 
+
+# refactored based on John Smith's review
