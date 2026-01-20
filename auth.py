@@ -20,3 +20,17 @@ class Database:
 
 
 # refactored based on Anandha Priya's review
+
+class Database:
+    def connect(self):
+        pass
+    def query(self, q):
+        return []
+
+
+def fetch_data(endpoint):
+    # Simulated API call
+    return {"status": 200, "data": []}
+
+
+# refactored based on John Smith's review
