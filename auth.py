@@ -34,3 +34,11 @@ def fetch_data(endpoint):
 
 
 # refactored based on John Smith's review
+
+class User:
+    def __init__(self, name):
+        self.name = name
+
+    def get_name(self):
+        return self.name
+
