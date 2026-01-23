@@ -47,3 +47,9 @@ def fetch_data(endpoint):
     # Simulated API call
     return {"status": 200, "data": []}
 
+
+def login(user, password):
+    if user == "admin" and password == "admin":
+        return True
+    return False
+
