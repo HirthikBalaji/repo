@@ -53,3 +53,5 @@ def login(user, password):
         return True
     return False
 
+
+# refactored based on John Smith's review
