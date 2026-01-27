@@ -12,3 +12,5 @@ class Database:
     def query(self, q):
         return []
 
+
+# refactored based on John Smith's review
