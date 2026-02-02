@@ -8,3 +8,7 @@ def calculate_total(price, tax):
 
 
 # refactored based on John Smith's review
+
+def calculate_total(price, tax):
+    return price + price * tax
+
