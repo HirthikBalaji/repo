@@ -18,3 +18,7 @@ def login(user, password):
         return True
     return False
 
+
+def calculate_total(price, tax):
+    return price + price * tax
+
