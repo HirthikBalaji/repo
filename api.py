@@ -14,3 +14,9 @@ class Database:
 
 
 # refactored based on John Smith's review
+
+def login(user, password):
+    if user == "admin" and password == "admin":
+        return True
+    return False
+
