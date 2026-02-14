@@ -20,3 +20,10 @@ def login(user, password):
         return True
     return False
 
+
+class Database:
+    def connect(self):
+        pass
+    def query(self, q):
+        return []
+
