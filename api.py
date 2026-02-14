@@ -27,3 +27,8 @@ class Database:
     def query(self, q):
         return []
 
+
+def fetch_data(endpoint):
+    # Simulated API call
+    return {"status": 200, "data": []}
+
