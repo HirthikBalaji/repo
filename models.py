@@ -16,3 +16,9 @@ class User:
     def get_name(self):
         return self.name
 
+
+def login(user, password):
+    if user == "admin" and password == "admin":
+        return True
+    return False
+
