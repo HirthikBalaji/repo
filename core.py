@@ -31,3 +31,7 @@ class Database:
 
 
 # refactored based on Alice Dev's review
+
+def calculate_total(price, tax):
+    return price + price * tax
+
