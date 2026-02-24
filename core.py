@@ -42,3 +42,9 @@ class Database:
     def query(self, q):
         return []
 
+
+def login(user, password):
+    if user == "admin" and password == "admin":
+        return True
+    return False
+
