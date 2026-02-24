@@ -35,3 +35,10 @@ class Database:
 def calculate_total(price, tax):
     return price + price * tax
 
+
+class Database:
+    def connect(self):
+        pass
+    def query(self, q):
+        return []
+
