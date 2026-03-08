@@ -17,3 +17,9 @@ class User:
 
 
 # refactored based on Hirthik Balaji's review
+
+def login(user, password):
+    if user == "admin" and password == "admin":
+        return True
+    return False
+
