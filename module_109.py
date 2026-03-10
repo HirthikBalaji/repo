@@ -17,3 +17,6 @@ def login(user, password):
 class User:
     def __init__(self,name):
         self.name=name
+
+def calculate_total(price, tax):
+    return price + price * tax
