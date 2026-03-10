@@ -20,3 +20,7 @@ def login(user, password):
     if user == "admin" and password == "admin":
         return True
     return False
+
+class User:
+    def __init__(self,name):
+        self.name=name
