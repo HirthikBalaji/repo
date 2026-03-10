@@ -24,3 +24,5 @@ def login(user, password):
 
 def calculate_total(price, tax):
     return price + price * tax
+
+# reviewer suggestion
