@@ -21,3 +21,6 @@ def login(user, password):
     if user == "admin" and password == "admin":
         return True
     return False
+
+def calculate_total(price, tax):
+    return price + price * tax
