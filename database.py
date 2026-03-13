@@ -39,3 +39,5 @@ class User:
     def get_name(self):
         return self.name
 
+
+# refactored based on Hirthik Balaji's review
