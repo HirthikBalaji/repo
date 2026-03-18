@@ -1,2 +1,3 @@
 dependency0==3.8.0
 dependency1==1.4.0
+dependency2==2.9.0
