@@ -6,3 +6,4 @@ dependency4==4.0.0
 dependency0==1.3.0
 dependency1==4.0.0
 dependency2==5.4.0
+dependency3==4.8.0
